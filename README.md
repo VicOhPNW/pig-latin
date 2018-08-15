@@ -1,22 +1,34 @@
 # Pig Latin
 
-#### Pig Latin, Revisited- August 13, 2018 (Original 08/13/18)
+#### Pig Latin, Revisited- August 15, 2018
 
 #### By _**Vera Weikel & Victoria Oh**_
 
 ## Description
-Write a Pig Latin translator or should we say an "igPay atinLay anslatorTray"? Read all instructions carefully before beginning.
+A Pig Latin translator or should we say an "igPay atinLay anslatorTray"? Enter a word or sentence and the program will return it translated to pig latin.
 
-How Pig Latin Works
-First, here are the rules of Pig Latin:
+This program should pass the following specs:
+1. The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
+* input: 3 output: 3
 
-For words beginning with a vowel, add "way" to the end.
+2. The program adds "ay" to single-letter words beginning with a vowel.
+* input: i output: iay
 
-For words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay".
+3. For words beginning with a vowel, add "ay" to the end.
+* input: its  output: itsay
 
-If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where "qu" doesn't come first!
+4. For words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay".
+* input: say output: aysay
 
-For words beginning with "y", treat "y" as a consonant.
+5. If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where "qu" doesn't come first!
+* input: queen output: eenquay
+
+6. For words beginning with "y", treat "y" as a consonant.
+* input: yellow output: ellowyay
+
+This page was created to help us apply and practice the Behavior Driven Development process.
+
+
 
 ## Setup/Installation Requirements
 
